@@ -4,14 +4,22 @@
   "description": "Javascript Code Challenge",
   "scripts": {
     "start": "npm test",
-    "test": "mocha --recursive"
+    "test": "mocha"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.5.3"
   },
   "engines": {
     "node": "6.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
